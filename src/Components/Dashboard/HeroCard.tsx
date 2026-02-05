@@ -8,7 +8,7 @@ export const HeroCard: React.FC = () => {
     const navItems = [
         { label: 'About me', target: '/about', isHash: false },
         { label: 'Project', target: '/projects', isHash: false },
-        { label: 'Contact', target: 'contact-modal', isHash: false }, // Handled by store or special case
+        { label: 'Contact', target: '/contact', isHash: false },
     ];
 
     return (
