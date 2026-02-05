@@ -41,7 +41,6 @@ export const CategoryCard: React.FC<CategoryCardProps> = ({
                             <ArrowUpRight className="text-white" />
                         </div>
                     </div>
-                    <p className="text-white/70 font-medium">{count} Projects</p>
                 </div>
 
                 {/* Decorative Circle */}
