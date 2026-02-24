@@ -5,6 +5,10 @@ module.exports = {
     ],
     theme: {
         extend: {
+            fontFamily: {
+                sans: ['"Poetsen One"', 'sans-serif'],
+                poetsen: ['"Poetsen One"', 'sans-serif'],
+            },
             colors: {
                 'kid-green': '#4ADE80',
                 'fashion-purple': '#A855F7',
