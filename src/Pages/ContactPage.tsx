@@ -1,8 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { ArrowLeft, Mail, Phone, MapPin, Globe } from 'lucide-react';
+import { ArrowLeft } from 'lucide-react';
 import avatarImg from '../Assets/avartar.png';
-import { CircleDecoration } from '../Components/UI/CircleDecoration';
 
 const ContactPage: React.FC = () => {
     const navigate = useNavigate();

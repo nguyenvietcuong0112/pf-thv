@@ -2,7 +2,6 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
 import avatarImg from '../Assets/avartar.png';
-import { StarDecoration } from '../Components/UI/StarDecoration';
 
 const AboutPage: React.FC = () => {
     const navigate = useNavigate();
