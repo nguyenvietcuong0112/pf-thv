@@ -25,15 +25,12 @@ import otherGame2Img from '../Assets/othergame2.png';
 import otherGame3Img from '../Assets/othergame3.png';
 import otherGame4Img from '../Assets/othergame4.png';
 import otherGame5Img from '../Assets/othergame5.png';
-import otherGame6Img from '../Assets/othergame6.png';
 
 // New Icon Imports
 import icFashion from '../Assets/ic_fashion.png';
 import icHair1 from '../Assets/ic_hairslon1.png';
 import icHair2 from '../Assets/ic_hairslon2.png';
 import icHair3 from '../Assets/ic_hairslon3.png';
-import icHair4 from '../Assets/ic_hairsalon4.png';
-import icOther1 from '../Assets/ic_orther1.png';
 import icOther2 from '../Assets/ic_orther2.png';
 import icZooDoctor from '../Assets/ic_zoodoctor.png';
 import icHappyDoctor from '../Assets/ic_happydoctor.png';
