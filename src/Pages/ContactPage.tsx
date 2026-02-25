@@ -9,13 +9,13 @@ const ContactPage: React.FC = () => {
     return (
         <div className="min-h-screen w-full bg-[#5D12D2] relative flex flex-col items-center justify-center p-4 md:p-8 font-sans overflow-hidden text-white">
 
-            {/* Back Button */}
+            {/* Fixed Circular Back Button */}
             <button
                 onClick={() => navigate('/')}
-                className="absolute top-8 left-8 text-white hover:scale-110 transition-transform z-20"
+                className="fixed top-8 left-8 z-50 text-white hover:scale-110 transition-transform bg-white/20 p-4 rounded-full backdrop-blur-md shadow-lg border border-white/30"
                 aria-label="Go back"
             >
-                <ArrowLeft size={48} strokeWidth={3} />
+                <ArrowLeft size={32} strokeWidth={3} />
             </button>
 
             {/* Content Container */}

@@ -11,13 +11,13 @@ const AboutPage: React.FC = () => {
             {/* Main Content Card Container */}
             <div className="relative w-full max-w-6xl flex flex-col md:flex-row items-center gap-8 md:gap-16 z-10">
 
-                {/* Back Button */}
+                {/* Fixed Circular Back Button */}
                 <button
                     onClick={() => navigate('/')}
-                    className="absolute top-0 left-0 -mt-12 md:-mt-16 text-white hover:scale-110 transition-transform"
+                    className="fixed top-8 left-8 z-50 text-white hover:scale-110 transition-transform bg-white/20 p-4 rounded-full backdrop-blur-md shadow-lg border border-white/30"
                     aria-label="Go back"
                 >
-                    <ArrowLeft size={48} strokeWidth={3} />
+                    <ArrowLeft size={32} strokeWidth={3} />
                 </button>
 
                 {/* Left Side: Avatar Section */}
@@ -46,7 +46,7 @@ const AboutPage: React.FC = () => {
 
                     <div className="space-y-4 max-w-2xl">
                         <p className="text-xl md:text-2xl font-bold text-gray-800 leading-snug">
-                            Junior 2D Artist with 2+ years of experience in game projects.
+                            2D Artist with 2+ years of experience in game projects.
                         </p>
                         <p className="text-xl md:text-2xl font-bold text-gray-800 leading-snug">
                             Strong in game items and concept.
