@@ -31,6 +31,9 @@ import icFashion from '../Assets/ic_fashion.png';
 import icHair1 from '../Assets/ic_hairslon1.png';
 import icHair2 from '../Assets/ic_hairslon2.png';
 import icHair3 from '../Assets/ic_hairslon3.png';
+import icChrismasHair from '../Assets/ic_chrismas_hair.png';
+import icPandaHero from '../Assets/ic_panda_hero.png';
+import icColoringChristmas from '../Assets/ic_coloring_chrismas.png';
 import icOther2 from '../Assets/ic_orther2.png';
 import icZooDoctor from '../Assets/ic_zoodoctor.png';
 import icHappyDoctor from '../Assets/ic_happydoctor.png';
@@ -112,6 +115,12 @@ const PROJECT_CONFIG: Record<string, ProjectDetailData> = {
                         name: 'Hair Salon Halloween Party',
                         downloads: '500N+',
                         url: 'https://play.google.com/store/apps/details?id=com.uchiha.hair.halloween&hl=vi'
+                    },
+                    {
+                        thumb: icChrismasHair,
+                        name: 'Christmas Hair Stylist',
+                        downloads: '500N+',
+                        url: 'https://play.google.com/store/apps/details?id=com.bibota.hair.game.christmas&hl=vi'
                     }
                 ]
             }
@@ -158,6 +167,18 @@ const PROJECT_CONFIG: Record<string, ProjectDetailData> = {
                         name: 'Block Blast Puzzle Mania',
                         downloads: '500N+',
                         url: 'https://play.google.com/store/apps/details?id=com.bibota.blast.puzzle&hl=vi'
+                    },
+                    {
+                        thumb: icPandaHero,
+                        name: 'Panda Hero Adventure',
+                        downloads: '1M+',
+                        url: 'https://play.google.com/store/apps/details?id=com.uchiha.panda.hero.adventure&hl=vi'
+                    },
+                    {
+                        thumb: icColoringChristmas,
+                        name: 'Coloring Book Christmas',
+                        downloads: '500N+',
+                        url: 'https://play.google.com/store/apps/details?id=com.coloringpage.christmas.game&hl=vi'
                     }
                 ]
             }

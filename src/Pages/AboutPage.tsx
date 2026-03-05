@@ -1,7 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
-import avatarImg from '../Assets/avartar.png';
 
 const AboutPage: React.FC = () => {
     const navigate = useNavigate();
@@ -20,22 +19,11 @@ const AboutPage: React.FC = () => {
                     <ArrowLeft size={32} strokeWidth={3} />
                 </button>
 
-                {/* Left Side: Avatar Section */}
+                {/* Left Side: Decoration (Avatar Removed) */}
                 <div className="relative flex-shrink-0">
-                    {/* Sparkles (Removed overlapping one) */}
-                    <div className="absolute top-10 -left-12 z-20">
-                        <Sparkle size={24} className="text-white" />
-                    </div>
                     <div className="absolute -top-4 -right-2 z-20">
                         <Sparkle size={32} className="text-white" />
                     </div>
-
-                    {/* Avatar Image (No Container) */}
-                    <img
-                        src={avatarImg}
-                        alt="Avatar"
-                        className="w-[300px] h-auto md:w-[450px] relative z-10 drop-shadow-2xl"
-                    />
                 </div>
 
                 {/* Right Side: Text Content */}
@@ -45,16 +33,16 @@ const AboutPage: React.FC = () => {
                     </h1>
 
                     <div className="space-y-4 max-w-2xl">
-                        <p className="text-xl md:text-2xl font-bold text-gray-800 leading-snug">
+                        <p className="text-xl md:text-2xl font-montserrat font-medium text-gray-800 leading-snug">
                             2D Artist with 2+ years of experience in game projects.
                         </p>
-                        <p className="text-xl md:text-2xl font-bold text-gray-800 leading-snug">
+                        <p className="text-xl md:text-2xl font-montserrat font-medium text-gray-800 leading-snug">
                             Strong in game items and concept.
                         </p>
-                        <p className="text-xl md:text-2xl font-bold text-gray-800 leading-snug">
+                        <p className="text-xl md:text-2xl font-montserrat font-medium text-gray-800 leading-snug">
                             Experienced working with Unity pipeline and collaborating with dev teams.
                         </p>
-                        <p className="text-xl md:text-2xl font-bold text-gray-800 leading-snug">
+                        <p className="text-xl md:text-2xl font-montserrat font-medium text-gray-800 leading-snug">
                             Looking for long term growth in game UI and asset production.
                         </p>
                     </div>

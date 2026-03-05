@@ -8,6 +8,7 @@ module.exports = {
             fontFamily: {
                 sans: ['"Poetsen One"', 'sans-serif'],
                 poetsen: ['"Poetsen One"', 'sans-serif'],
+                montserrat: ['"Montserrat"', 'sans-serif'],
             },
             colors: {
                 'kid-green': '#4ADE80',

@@ -1,7 +1,11 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
-import avatarImg from '../Assets/avartar.png';
+
+// Placeholders for icons - user will add actual assets later
+import icPhone from '../Assets/ic_phone.png';
+import icMail from '../Assets/ic_mail.png';
+import icLocation from '../Assets/ic_location.png';
 
 const ContactPage: React.FC = () => {
     const navigate = useNavigate();
@@ -27,19 +31,29 @@ const ContactPage: React.FC = () => {
                 </h1>
 
                 {/* Contact Info Section */}
-                <div className="flex items-center gap-4 mt-2">
-                    {/* Avatar Image (Aligned with 3 lines of text) */}
-                    <img
-                        src={avatarImg}
-                        alt="Contact Avatar"
-                        className="h-40 md:h-44 w-auto object-contain relative z-10 drop-shadow-lg flex-shrink-0"
-                    />
+                <div className="flex flex-col items-start gap-6 mt-8">
+                    {/* Phone */}
+                    <div className="flex items-center gap-6 group">
+                        <div className="w-14 h-14 md:w-16 md:h-16 rounded-full bg-white/10 backdrop-blur-md border border-white/20 flex items-center justify-center group-hover:scale-110 transition-transform">
+                            <img src={icPhone} alt="Phone" className="w-8 h-8 object-contain" />
+                        </div>
+                        <p className="text-2xl md:text-3xl font-montserrat font-medium tracking-wider">0962359058</p>
+                    </div>
 
-                    {/* Contact Details */}
-                    <div className="flex flex-col text-left space-y-1">
-                        <p className="text-xl md:text-2xl font-bold tracking-wide">0962359058</p>
-                        <p className="text-xl md:text-2xl font-bold tracking-wide">1999havy@gmail.com</p>
-                        <p className="text-xl md:text-2xl font-bold tracking-wide text-white/90">Hai Ba Trung, Hanoi</p>
+                    {/* Email */}
+                    <div className="flex items-center gap-6 group">
+                        <div className="w-14 h-14 md:w-16 md:h-16 rounded-full bg-white/10 backdrop-blur-md border border-white/20 flex items-center justify-center group-hover:scale-110 transition-transform">
+                            <img src={icMail} alt="Email" className="w-8 h-8 object-contain" />
+                        </div>
+                        <p className="text-2xl md:text-3xl font-montserrat font-medium tracking-wider">1999havy@gmail.com</p>
+                    </div>
+
+                    {/* Location */}
+                    <div className="flex items-center gap-6 group">
+                        <div className="w-14 h-14 md:w-16 md:h-16 rounded-full bg-white/10 backdrop-blur-md border border-white/20 flex items-center justify-center group-hover:scale-110 transition-transform">
+                            <img src={icLocation} alt="Location" className="w-8 h-8 object-contain" />
+                        </div>
+                        <p className="text-2xl md:text-3xl font-montserrat font-medium tracking-wider">Hai Ba Trung, Hanoi</p>
                     </div>
                 </div>
             </div>
