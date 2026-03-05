@@ -88,7 +88,7 @@ const PROJECT_CONFIG: Record<string, ProjectDetailData> = {
     'hair-salon': {
         id: 'hair-salon',
         title: 'Hair Salon Game',
-        gradient: 'bg-gradient-to-b from-[#F9A8D4] via-[#FDF2F8] to-[#93C5FD]',
+        gradient: 'bg-gradient-to-b from-[#FFB6DB] to-[#62D8FF]',
         titleColor: 'text-[#D81B60]',
         sections: [
             { title: 'Characters', type: 'image', image: hairGame1Img },

@@ -1,6 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
+import avatarImg from '../Assets/avartar.png';
 
 const AboutPage: React.FC = () => {
     const navigate = useNavigate();
@@ -19,11 +20,21 @@ const AboutPage: React.FC = () => {
                     <ArrowLeft size={32} strokeWidth={3} />
                 </button>
 
-                {/* Left Side: Decoration (Avatar Removed) */}
+                {/* Left Side: Avatar Section */}
                 <div className="relative flex-shrink-0">
+                    <div className="absolute top-10 -left-12 z-20">
+                        <Sparkle size={24} className="text-white" />
+                    </div>
                     <div className="absolute -top-4 -right-2 z-20">
                         <Sparkle size={32} className="text-white" />
                     </div>
+
+                    {/* Avatar Image */}
+                    <img
+                        src={avatarImg}
+                        alt="Avatar"
+                        className="w-[300px] h-auto md:w-[450px] relative z-10 drop-shadow-2xl"
+                    />
                 </div>
 
                 {/* Right Side: Text Content */}
