@@ -152,7 +152,7 @@ const PROJECT_CONFIG: Record<string, ProjectDetailData> = {
     'other': {
         id: 'other',
         title: 'Other Products',
-        gradient: 'bg-gradient-to-b from-[#6EE7B7] via-[#ECFDF5] to-[#3DB5E0]',
+        gradient: 'bg-gradient-to-b from-[#78FFAE] to-[#29D2E5]',
         titleColor: 'text-[#2563EB]',
         sections: [
             { title: 'Panda Hero Adventure', type: 'dual-image', image: otherGame1Img, image2: otherGame2Img },
