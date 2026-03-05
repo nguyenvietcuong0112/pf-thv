@@ -45,7 +45,7 @@ const AboutPage: React.FC = () => {
 
                     <div className="space-y-4 max-w-2xl">
                         <p className="text-xl md:text-2xl font-montserrat font-medium text-gray-800 leading-snug">
-                            2D Artist with 2+ years of experience in game projects.
+                            2D Artist with 3+ years of experience in game projects.
                         </p>
                         <p className="text-xl md:text-2xl font-montserrat font-medium text-gray-800 leading-snug">
                             Strong in game items and concept.
